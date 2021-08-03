@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-03T05:55:54.541Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="Ib0OM-JXn5DFHzpBD7FJ" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-03T06:57:07.047Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="OyO9XmIGc9R_TO6DrfQg" version="14.9.3" type="github">
   <diagram id="8iDh32Fo-bSGfAaZtZxc" name="Page-1">
-    <mxGraphModel dx="694" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,6 +17,9 @@
           <mxGeometry x="70" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PARyjg_m3ofy1fQdpX_w-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PARyjg_m3ofy1fQdpX_w-4" target="PARyjg_m3ofy1fQdpX_w-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PARyjg_m3ofy1fQdpX_w-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PARyjg_m3ofy1fQdpX_w-4" target="PARyjg_m3ofy1fQdpX_w-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PARyjg_m3ofy1fQdpX_w-4" value="读取编辑客户端账号" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -36,6 +39,9 @@
         </mxCell>
         <mxCell id="PARyjg_m3ofy1fQdpX_w-10" value="自动开启服务" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PARyjg_m3ofy1fQdpX_w-12" value="从数据库中，通过PKG_NOTICE.Account_qx存储过程，取出账户信息，保存在&lt;br&gt;NoticeClientAccount.dat文件中，" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="270" y="330" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
