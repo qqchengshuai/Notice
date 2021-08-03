@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-03T07:14:16.851Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="uUGWpDvoc8-JeDnHr8fi" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-03T09:21:53.801Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="DEGiFRp2oleBZKtPED54" version="14.9.3" type="github">
   <diagram id="8iDh32Fo-bSGfAaZtZxc" name="Page-1">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,10 +40,19 @@
         <mxCell id="PARyjg_m3ofy1fQdpX_w-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PARyjg_m3ofy1fQdpX_w-8" target="PARyjg_m3ofy1fQdpX_w-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PARyjg_m3ofy1fQdpX_w-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PARyjg_m3ofy1fQdpX_w-8" target="PARyjg_m3ofy1fQdpX_w-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PARyjg_m3ofy1fQdpX_w-8" value="取当前数据库中最大操作编号" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PARyjg_m3ofy1fQdpX_w-10" value="自动开启服务" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PARyjg_m3ofy1fQdpX_w-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PARyjg_m3ofy1fQdpX_w-10" target="PARyjg_m3ofy1fQdpX_w-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PARyjg_m3ofy1fQdpX_w-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PARyjg_m3ofy1fQdpX_w-10" target="PARyjg_m3ofy1fQdpX_w-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PARyjg_m3ofy1fQdpX_w-10" value="读取历史公告" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PARyjg_m3ofy1fQdpX_w-12" value="从数据库中，通过PKG_NOTICE.Account_qx存储过程，取出账户信息，保存在&lt;br&gt;NoticeClientAccount.dat文件中，" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
@@ -54,6 +63,15 @@
         </mxCell>
         <mxCell id="PARyjg_m3ofy1fQdpX_w-16" value="在配置Config.ini配置文件中，读写[AdminUser]信息" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="270" y="470" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PARyjg_m3ofy1fQdpX_w-18" value="自动开启服务" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PARyjg_m3ofy1fQdpX_w-20" value="从数据库中，通过PKG_NOTICE.NOTICETITLE_GET_LOCAL取出历史公告" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="270" y="750" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PARyjg_m3ofy1fQdpX_w-22" value="select Max(IOptID) from noticeInfo" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="610" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
